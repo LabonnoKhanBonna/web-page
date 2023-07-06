@@ -1,3 +1,11 @@
-h1{
-    text-align: center;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(53, 52, 52);
+    padding: 20px;
+}
+.logo-photo{
+    width: 150px;
 }
