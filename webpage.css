@@ -37,6 +37,9 @@ cursor: pointer;
     border: 2px;
     color: white;
     background-image: url("images/background.png"),linear-gradient(45deg,#754848,#565151);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
     font-size: 55px;
@@ -58,4 +61,56 @@ cursor: pointer;
 .but:hover{
     background-color: green;
     color: darkblue;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+.about-us{
+    color: saddlebrown;
+    font-size: 50px;
+    font-weight: bold;
+}
+.about-info{
+    padding: 20px;
+    margin: 20px;
+}
+.box{
+    width: 250px;
+    height: 300px;
+    box-shadow: 10px 10px 15px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+
+}
+.box-but{
+background-color: grey;
+margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+    font-size: 18px;
+}
+.box-des{
+    padding: 10px;
+}
+.about-title{
+text-align: center;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: darkkhaki;
 }
